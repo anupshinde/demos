@@ -205,7 +205,7 @@
   function supprimerTableau() {
     if (tableauToDelete) {      
       if (window.confirm("Etes-vous certain ?")) {
-        $("body").append($("#divDeleteTableau")); // Sinon il réapparait ...
+        $("body").append($("#divDeleteTableau")); // Sinon il rï¿½apparait ...
         $(tableauToDelete).parent().remove();
         tableauToDelete = null;
         $("#divDeleteTableau").hide();
@@ -305,7 +305,7 @@
     else {
       form.find("#pObligatoire").hide();
     }
-    // Gestion du chargement champs spécifiques
+    // Gestion du chargement champs spï¿½cifiques
     form.find("[name=label]").val(div_ctrl.find('.control-label').text())
     var specific_load_method = load_values[ctrl_type];
     if(typeof(specific_load_method)!='undefined') {
@@ -836,7 +836,7 @@
 	</div>
 
 <hr/>
-<h6><a href="https://github.com/anupshinde/demos/tree/gh-pages/form-builder-part2-1_kevin_d" target="_blank">Code @ GitHub</a></h6>
+<h4><a href="https://github.com/anupshinde/demos/tree/gh-pages/form-builder-part2-1_kevin_d" target="_blank">Code @ GitHub</a></h4>
 
 
 <hr/>
